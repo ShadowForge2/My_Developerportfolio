@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bashir Abdulganiyy | Building Digital Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- SVG Definitions for Gradients -->
+    <svg style="position: absolute; width: 0; height: 0;">
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+            </linearGradient>
+            
+            <!-- Skill Gradients -->
+            <linearGradient id="html-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#e34c26;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#f06529;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="css-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#1572b6;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#33a9dc;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="javascript-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#f7df1e;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#f0db4f;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="react-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#61dafb;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#20d8ff;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="nodejs-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#68a063;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#8cc84b;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="python-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#3776ab;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#ffd43b;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="cicd-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="docker-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#2496ed;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#0db7ed;stop-opacity:1" />
+            </linearGradient>
+            
+            <linearGradient id="web3-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+    </svg>
+    
+    <!-- Premium Background Elements -->
+    <div class="background-elements">
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        <div class="gradient-blob blob-3"></div>
+        <div class="particle-container" id="particles"></div>
+        <div class="grid-overlay"></div>
+    </div>
+    
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="cursor"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">BA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">Welcome to my digital universe</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text typing-text">Bashir Abdulganiyy</span>
+                </h1>
+                <h2 class="hero-subtitle">Full-Stack Developer & Automation Engineer</h2>
+                <p class="hero-description">
+                    Developing scalable web solutions and automation systems that transform ideas into powerful digital experiences and streamlined workflows.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button primary">
+                        <span class="button-text">View My Work</span>
+                        <div class="button-glow"></div>
+                    </a>
+                    <a href="#contact" class="cta-button secondary">
+                        <span class="button-text">Get In Touch</span>
+                        <div class="button-glow"></div>
+                    </a>
+                </div>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/2349132457632?text=Hello%20Bashir%2C%20I%20would%20like%20to%20work%20with%20you" target="_blank" class="contact-btn whatsapp-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12c1.938 0 3.75-.506 5.324-1.387l-.015-.025 6.691 1.734-1.734-6.691.025-.015C22.494 15.75 23 13.938 23 12 23 5.373 17.626 0 12 0zm5.894 16.868l-.933 3.595-3.595-.933C11.578 20.176 10.837 20.3 10.062 20.3c-4.562 0-8.262-3.7-8.262-8.262s3.7-8.262 8.262-8.262 8.262 3.7 8.262 8.262-3.7 8.262-8.262 8.262c-.775 0-1.516-.124-2.304-.37l-.025.025zm-7.832-7.832h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688zm4.562 0h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688z"/>
+                        </svg>
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number" data-target="25">25+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number" data-target="3">3+</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number" data-target="18">18+</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-glow">
+                    <div class="glow-ring"></div>
+                    <img src="images/profile-hero.jpg" alt="Bashir Abdulganiyy" class="profile-img">
+                    <div class="floating-elements">
+                        <div class="float-element element-1"></div>
+                        <div class="float-element element-2"></div>
+                        <div class="float-element element-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/mini profile.jpeg" alt="Bashir Abdulganiyy" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h3 class="about-title">Full-Stack Developer & Automation Engineer</h3>
+                    <p class="about-description">
+                        I'm a passionate full-stack developer and automation engineer with a keen eye for creating elegant, efficient, and user-friendly digital solutions. 
+                        With expertise in modern web technologies and automation systems, I transform complex problems into simple, beautiful, and intuitive applications.
+                    </p>
+                    <p class="about-description">
+                        My journey in tech has been driven by curiosity and a constant desire to learn and innovate. 
+                        I specialize in building responsive web applications and automation workflows that deliver exceptional user experiences and streamlined processes.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Bashir Abdulganiyy</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Title:</span>
+                            <span class="info-value">Full-Stack Developer & Automation Engineer</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">bashirabdulganiyy9@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="95"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="90"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="85"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="65"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="85"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="80"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">Selenium</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="75"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">CI/CD</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="70"></circle>
+                        </svg>
+                        <div class="skill-info">
+                            <span class="skill-name">Docker</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                        <div class="skill-circle">
+                            <svg class="skill-svg" viewBox="0 0 100 100">
+                                <defs>
+                                    <linearGradient id="web3-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle class="skill-bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="skill-progress-circle" cx="50" cy="50" r="45" data-progress="75"></circle>
+                            </svg>
+                            <div class="skill-info">
+                                <span class="skill-name">Web3 Development</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="18">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="tool">Tools</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="web3">Web3</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-image-svg">
+                            <svg viewBox="0 0 400 250" class="project-svg">
+                                <defs>
+                                    <linearGradient id="ecommerce-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="400" height="250" fill="url(#ecommerce-gradient)" opacity="0.1"/>
+                                <rect x="50" y="40" width="300" height="170" rx="8" fill="none" stroke="url(#ecommerce-gradient)" stroke-width="2"/>
+                                <rect x="70" y="60" width="80" height="60" rx="4" fill="url(#ecommerce-gradient)" opacity="0.3"/>
+                                <rect x="160" y="60" width="80" height="60" rx="4" fill="url(#ecommerce-gradient)" opacity="0.3"/>
+                                <rect x="250" y="60" width="80" height="60" rx="4" fill="url(#ecommerce-gradient)" opacity="0.3"/>
+                                <circle cx="90" cy="90" r="15" fill="url(#ecommerce-gradient)"/>
+                                <path d="M85 85 L85 95 L95 95 L95 85 Z M85 90 L95 90" fill="white" stroke="white" stroke-width="2"/>
+                                <rect x="70" y="140" width="260" height="40" rx="4" fill="url(#ecommerce-gradient)" opacity="0.2"/>
+                                <text x="200" y="165" text-anchor="middle" fill="#38bdf8" font-family="Arial, sans-serif" font-size="14" font-weight="600">E-Commerce Platform</text>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>E-Commerce Platform</h4>
+                                <p>Modern online shopping experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A modern e-commerce solution with real-time inventory management, secure payment processing, and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-btn primary">
+                                <span>View Project</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="project-btn secondary">
+                                <span>GitHub</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <div class="project-image-svg">
+                            <svg viewBox="0 0 400 250" class="project-svg">
+                                <defs>
+                                    <linearGradient id="task-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="400" height="250" fill="url(#task-gradient)" opacity="0.1"/>
+                                <rect x="50" y="40" width="300" height="170" rx="8" fill="none" stroke="url(#task-gradient)" stroke-width="2"/>
+                                <rect x="70" y="60" width="260" height="30" rx="4" fill="url(#task-gradient)" opacity="0.3"/>
+                                <circle cx="85" cy="75" r="8" fill="url(#task-gradient)"/>
+                                <rect x="70" y="100" width="260" height="30" rx="4" fill="url(#task-gradient)" opacity="0.2"/>
+                                <circle cx="85" cy="115" r="8" fill="none" stroke="url(#task-gradient)" stroke-width="2"/>
+                                <rect x="70" y="140" width="260" height="30" rx="4" fill="url(#task-gradient)" opacity="0.15"/>
+                                <circle cx="85" cy="155" r="8" fill="none" stroke="url(#task-gradient)" stroke-width="2"/>
+                                <rect x="200" y="70" width="120" height="10" rx="2" fill="url(#task-gradient)"/>
+                                <rect x="200" y="110" width="80" height="10" rx="2" fill="url(#task-gradient)" opacity="0.7"/>
+                                <rect x="200" y="150" width="100" height="10" rx="2" fill="url(#task-gradient)" opacity="0.4"/>
+                                <text x="200" y="205" text-anchor="middle" fill="#38bdf8" font-family="Arial, sans-serif" font-size="14" font-weight="600">Task Management App</text>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>Task Management App</h4>
+                                <p>Collaborative productivity tool</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            A collaborative task management application with real-time updates, team collaboration features, and analytics dashboard.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-btn primary">
+                                <span>View Project</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="project-btn secondary">
+                                <span>GitHub</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="tool">
+                    <div class="project-image">
+                        <div class="project-image-svg">
+                            <svg viewBox="0 0 400 250" class="project-svg">
+                                <defs>
+                                    <linearGradient id="weather-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="400" height="250" fill="url(#weather-gradient)" opacity="0.1"/>
+                                <rect x="50" y="40" width="300" height="170" rx="8" fill="none" stroke="url(#weather-gradient)" stroke-width="2"/>
+                                <circle cx="120" cy="100" r="25" fill="url(#weather-gradient)" opacity="0.8"/>
+                                <circle cx="120" cy="100" r="18" fill="white"/>
+                                <circle cx="200" cy="90" r="20" fill="url(#weather-gradient)" opacity="0.6"/>
+                                <circle cx="220" cy="95" r="18" fill="url(#weather-gradient)" opacity="0.7"/>
+                                <circle cx="240" cy="90" r="20" fill="url(#weather-gradient)" opacity="0.6"/>
+                                <rect x="70" y="140" width="260" height="50" rx="4" fill="url(#weather-gradient)" opacity="0.2"/>
+                                <rect x="80" y="150" width="60" height="8" rx="2" fill="url(#weather-gradient)"/>
+                                <rect x="80" y="165" width="40" height="8" rx="2" fill="url(#weather-gradient)" opacity="0.7"/>
+                                <rect x="150" y="150" width="80" height="8" rx="2" fill="url(#weather-gradient)"/>
+                                <rect x="150" y="165" width="60" height="8" rx="2" fill="url(#weather-gradient)" opacity="0.7"/>
+                                <rect x="240" y="150" width="70" height="8" rx="2" fill="url(#weather-gradient)"/>
+                                <rect x="240" y="165" width="50" height="8" rx="2" fill="url(#weather-gradient)" opacity="0.7"/>
+                                <text x="200" y="215" text-anchor="middle" fill="#38bdf8" font-family="Arial, sans-serif" font-size="14" font-weight="600">Weather Dashboard</text>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>Weather Dashboard</h4>
+                                <p>Beautiful weather analytics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">
+                            A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-btn primary">
+                                <span>View Project</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="project-btn secondary">
+                                <span>GitHub</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="automation">
+                    <div class="project-image">
+                        <div class="project-image-svg">
+                            <svg viewBox="0 0 400 250" class="project-svg">
+                                <defs>
+                                    <linearGradient id="automation-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="400" height="250" fill="url(#automation-gradient)" opacity="0.1"/>
+                                <rect x="50" y="40" width="300" height="170" rx="8" fill="none" stroke="url(#automation-gradient)" stroke-width="2"/>
+                                <rect x="70" y="60" width="120" height="40" rx="4" fill="url(#automation-gradient)" opacity="0.3"/>
+                                <rect x="200" y="60" width="120" height="40" rx="4" fill="url(#automation-gradient)" opacity="0.3"/>
+                                <circle cx="90" cy="80" r="12" fill="url(#automation-gradient)"/>
+                                <path d="M85 75 L85 85 L95 85 L95 75 Z" fill="white"/>
+                                <circle cx="220" cy="80" r="12" fill="url(#automation-gradient)"/>
+                                <path d="M215 75 L215 85 L225 85 L225 75 Z" fill="white"/>
+                                <rect x="70" y="120" width="260" height="60" rx="4" fill="url(#automation-gradient)" opacity="0.2"/>
+                                <rect x="80" y="130" width="100" height="8" rx="2" fill="url(#automation-gradient)"/>
+                                <rect x="80" y="145" width="120" height="8" rx="2" fill="url(#automation-gradient)" opacity="0.7"/>
+                                <rect x="80" y="160" width="80" height="8" rx="2" fill="url(#automation-gradient)" opacity="0.4"/>
+                                <circle cx="200" cy="140" r="8" fill="url(#automation-gradient)"/>
+                                <circle cx="220" cy="140" r="8" fill="url(#automation-gradient)" opacity="0.7"/>
+                                <circle cx="240" cy="140" r="8" fill="url(#automation-gradient)" opacity="0.4"/>
+                                <text x="200" y="205" text-anchor="middle" fill="#38bdf8" font-family="Arial, sans-serif" font-size="14" font-weight="600">Automation Testing Framework</text>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>Automation Testing Framework</h4>
+                                <p>Automated testing solution for web applications</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automation Testing Framework</h3>
+                        <p class="project-description">
+                            A comprehensive automation testing framework built with Selenium and Python, enabling robust end-to-end testing for web applications with detailed reporting and CI/CD integration.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">CI/CD</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-btn primary">
+                                <span>View Project</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="project-btn secondary">
+                                <span>GitHub</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web3">
+                    <div class="project-image">
+                        <div class="project-image-svg">
+                            <svg viewBox="0 0 400 250" class="project-svg">
+                                <defs>
+                                    <linearGradient id="web3-project-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <!-- Web3 Blockchain Visualization -->
+                                <rect x="50" y="50" width="80" height="80" fill="url(#web3-project-gradient)" rx="10" opacity="0.8"/>
+                                <rect x="160" y="50" width="80" height="80" fill="url(#web3-project-gradient)" rx="10" opacity="0.6"/>
+                                <rect x="270" y="50" width="80" height="80" fill="url(#web3-project-gradient)" rx="10" opacity="0.4"/>
+                                
+                                <!-- Connection lines -->
+                                <line x1="130" y1="90" x2="160" y2="90" stroke="url(#web3-project-gradient)" stroke-width="3" opacity="0.8"/>
+                                <line x1="240" y1="90" x2="270" y2="90" stroke="url(#web3-project-gradient)" stroke-width="3" opacity="0.6"/>
+                                
+                                <!-- Smart contract nodes -->
+                                <circle cx="90" cy="90" r="8" fill="#f59e0b"/>
+                                <circle cx="200" cy="90" r="8" fill="#ef4444"/>
+                                <circle cx="310" cy="90" r="8" fill="#f59e0b"/>
+                                
+                                <!-- Ethereum logo representation -->
+                                <polygon points="200,140 180,160 200,180 220,160" fill="url(#web3-project-gradient)" opacity="0.7"/>
+                                <polygon points="200,120 185,135 200,150 215,135" fill="url(#web3-project-gradient)" opacity="0.5"/>
+                                
+                                <!-- Data flow lines -->
+                                <path d="M 90 130 Q 200 110 310 130" stroke="url(#web3-project-gradient)" stroke-width="2" fill="none" opacity="0.4"/>
+                                <circle cx="90" cy="130" r="4" fill="#f59e0b"/>
+                                <circle cx="200" cy="110" r="4" fill="#ef4444"/>
+                                <circle cx="310" cy="130" r="4" fill="#f59e0b"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DeFi Trading Platform</h3>
+                        <p class="project-description">
+                            A decentralized finance trading platform built on Ethereum, featuring smart contract integration, real-time price feeds, and secure wallet connectivity for seamless cryptocurrency trading.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Solidity</span>
+                            <span class="tech-tag">Web3.js</span>
+                            <span class="tech-tag">Ethereum</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-btn primary">
+                                <span>View Project</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="project-btn secondary">
+                                <span>GitHub</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Let's Work Together</h3>
+                    <p class="contact-description">
+                        I'm always interested in hearing about new projects and opportunities. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12c1.938 0 3.75-.506 5.324-1.387l-.015-.025 6.691 1.734-1.734-6.691.025-.015C22.494 15.75 23 13.938 23 12 23 5.373 17.626 0 12 0zm5.894 16.868l-.933 3.595-3.595-.933C11.578 20.176 10.837 20.3 10.062 20.3c-4.562 0-8.262-3.7-8.262-8.262s3.7-8.262 8.262-8.262 8.262 3.7 8.262 8.262-3.7 8.262-8.262 8.262c-.775 0-1.516-.124-2.304-.37l-.025.025zm-7.832-7.832h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688zm4.562 0h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688z"/>
+                                </svg>
+                            </div>
+                            <span>WhatsApp: +234 913 245 7632</span>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <span>+234 913 245 7632</span>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <span>Abuja, Nigeria</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <h4>My Location</h4>
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7291066278!2d7.485550!3d9.057991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b4d3e543e4b%3A0x7b4e4d8c4e4d4e4d!2sAbuja%2C%20Nigeria!5e0!3m2!1sen!2s!4v1234567890!5m2!1sen!2s"
+                            width="100%" 
+                            height="400" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-info">
+                        <p><strong>Address:</strong> Abuja, Nigeria</p>
+                        <p><strong>Available for:</strong> Remote work & local projects</p>
+                    </div>
+                </div>
+                <div class="quick-contact">
+                    <h4>Or reach out instantly via WhatsApp:</h4>
+                    <div class="quick-contact-buttons">
+                        <a href="https://wa.me/2349132457632?text=Hello%20Bashir%2C%20I%20would%20like%20to%20work%20with%20you" target="_blank" class="quick-contact-btn whatsapp-quick">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12c1.938 0 3.75-.506 5.324-1.387l-.015-.025 6.691 1.734-1.734-6.691.025-.015C22.494 15.75 23 13.938 23 12 23 5.373 17.626 0 12 0zm5.894 16.868l-.933 3.595-3.595-.933C11.578 20.176 10.837 20.3 10.062 20.3c-4.562 0-8.262-3.7-8.262-8.262s3.7-8.262 8.262-8.262 8.262 3.7 8.262 8.262-3.7 8.262-8.262 8.262c-.775 0-1.516-.124-2.304-.37l-.025.025zm-7.832-7.832h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688zm4.562 0h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688z"/>
+                            </svg>
+                            <span>Chat on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Bashir Abdulganiyy. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/ShadowForge2" target="_blank" class="social-link" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bashir-abdulganiyy-2899a5402" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/bashirabdu16115" target="_blank" class="social-link" aria-label="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/2349132457632?text=Hello%20Bashir%2C%20I%20would%20like%20to%20work%20with%20you" target="_blank" class="floating-whatsapp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12c1.938 0 3.75-.506 5.324-1.387l-.015-.025 6.691 1.734-1.734-6.691.025-.015C22.494 15.75 23 13.938 23 12 23 5.373 17.626 0 12 0zm5.894 16.868l-.933 3.595-3.595-.933C11.578 20.176 10.837 20.3 10.062 20.3c-4.562 0-8.262-3.7-8.262-8.262s3.7-8.262 8.262-8.262 8.262 3.7 8.262 8.262-3.7 8.262-8.262 8.262c-.775 0-1.516-.124-2.304-.37l-.025.025zm-7.832-7.832h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688zm4.562 0h1.938c.375 0 .688.313.688.688v1.938c0 .375-.313.688-.688.688h-1.938c-.375 0-.688-.313-.688-.688v-1.938c0-.375.313-.688.688-.688z"/>
+        </svg>
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
